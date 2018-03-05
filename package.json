@@ -1,0 +1,30 @@
+{
+  "name": "@risingstack/rest-api-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon --inspect dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "4.15.3",
+    "generate-random-data": "0.0.3",
+    "mongoose": "*",
+    "request": "^2.83.0",
+    "request-json": "^0.6.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "tsc": "*",
+    "typescript": "2.3.3",
+    "nodemon": "1.11.0"
+  }
+}
